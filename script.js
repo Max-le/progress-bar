@@ -47,8 +47,9 @@ return new Date(newDate).getTime(); //will alert 1330210800000
 }
 
 function setBar(myCompletion){
-p = myCompletion*100 +"%"
-document.getElementById("bar").style.width = p;
+p = myCompletion*100 
+document.getElementById("bar").style.width = p+"%";
+document.getElementById("bar").innerHTML = p.toFixed(1)+"%";
 }
 
 //Règle Date début à Ajd
