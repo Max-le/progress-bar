@@ -16,7 +16,6 @@ function process(argument) {
 	end = document.getElementById('end').value ; 
 	start_hour = document.getElementById("start_hour").value;
 	end_hour = document.getElementById("end_hour").value;
-
 //Convert to stamptime
 t_start = convert(start);
 t_end = convert(end);
